@@ -26,7 +26,6 @@ class SearchBar extends PureComponent {
         if( this.state.term === '' ){
             return
         } else if( list.find(name => {return String(name).toLowerCase() === area.toLowerCase()}) ){
-            console.log('yes');
             alert('중복 되었습니다.');
             return reset;
         } else {

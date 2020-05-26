@@ -10,7 +10,7 @@ function App() {
           <li>해외에서 지역 좌표를 가지고 와서 위치 및 데이터가 제한적이고 정확하지 않습니다.</li>
           <li>중복되거나 없는 지역, 입력이 잘못되었을 경우 에러를 반환합니다.</li>
           <li><strong>해외 api라 영어로 검색해 주세요.</strong></li>
-          <li>사용 api = OpenWeatherMap</li>
+          <li>출처(api) = OpenWeatherMap</li>
         </ul>
     </div>
   );
